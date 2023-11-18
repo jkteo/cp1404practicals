@@ -3,7 +3,7 @@ def main():
 
 
 def display_password(password):
-    """"This function print * to length of password."""
+    """This function print * to length of password."""
     for i in range(password):
         print("*", end="")
 
