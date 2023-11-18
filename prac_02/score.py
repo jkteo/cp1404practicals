@@ -8,7 +8,7 @@ def main():
 
 
 def score_result(score):
-    """This function returns the result based on the score."""
+    """Returns the result based on the score."""
     if score < 0 or score > 100:
         result = "Invalid score"
     elif score >= 90:

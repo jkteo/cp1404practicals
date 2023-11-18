@@ -3,13 +3,13 @@ def main():
 
 
 def display_password(password):
-    """This function print * to length of password."""
+    """Print * to length of password."""
     for i in range(password):
         print("*", end="")
 
 
 def get_password():
-    """This function handles password input and validation."""
+    """Handles password input and validation."""
     min_length = 2
     password = input("Please enter password:")
     len_password = len(password)

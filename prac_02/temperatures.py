@@ -20,12 +20,12 @@ def main():
 
 
 def convert_celsius_fahrenheit(celsius):
-    """This function converts celsius to fahrenheit."""
+    """Converts celsius to fahrenheit."""
     return celsius * 9.0 / 5 + 32
 
 
 def convert_fahrenheit_celsius(fahrenheit):
-    """This function convert fahrenheit celsius."""
+    """Convert fahrenheit celsius."""
     return 5 / 9 * (fahrenheit - 32)
 
 
