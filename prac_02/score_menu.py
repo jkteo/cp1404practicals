@@ -27,6 +27,7 @@ def main():
 
 
 def validate_score():
+    """This function validates the score input."""
     score = int(input("Score: "))
     while score < 0 or score > 100:
         print("Invalid score")
@@ -35,6 +36,7 @@ def validate_score():
 
 
 def score_result(score):
+    """This function returns the result based on the score."""
     if score >= 90:
         result = "Excellent"
     elif score > 50:
@@ -45,6 +47,7 @@ def score_result(score):
 
 
 def display_star(score):
+    """"This function prints * to length of password."""
     for i in range(score):
         return score * "*"
 
