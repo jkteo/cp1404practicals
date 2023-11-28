@@ -18,6 +18,7 @@ def main():
 
 
 def generate_random(data):
+    """generate random number in list with no duplicates"""
     for i in range(LENGTH):
         random_no = random.randint(MIN_NUMBER, MAX_NUMBER)
         while random_no in data:
