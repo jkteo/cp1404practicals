@@ -9,6 +9,7 @@ Use a separate function to extract a name from the email as in the example below
 
 
 def main():
+    """checks name and store in dictionary"""
     users = {}
     email = input("Email: ")
     while email != "":
@@ -26,6 +27,7 @@ def main():
 
 
 def split_email(email):
+    """Obtain name from email"""
     name = email.split("@")[0]
     name = name.split(".")
     name = " ".join(name).title()
