@@ -65,7 +65,7 @@ def write_to_file(projects):
 
 
 def display_projects(projects):
-    """Display projects stratified by if they are complete"""
+    """Display projects if they are completed"""
     print("Incomplete projects")
     incomplete_projects = [f"\t{project}" for project in projects if not project.is_complete()]
     print('\n'.join(incomplete_projects))
