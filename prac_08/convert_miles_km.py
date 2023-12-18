@@ -35,6 +35,7 @@ class ConvertMilesApp(App):
         self.root.ids.input_number.text = str(new_value)
 
     def handle_update(self, value):
+        """Update by pressing enter"""
         self.number = str(float(value) * MILES_TO_KM)
 
 
